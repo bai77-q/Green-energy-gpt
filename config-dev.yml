@@ -1,0 +1,28 @@
+keys:
+  TCLOUD_API_KEY: 5xrhMqJjxxxxxxxxxxxxxxxx
+  TCLOUD_SECRET_ID: AKIDxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  TOKEN_SECRET: a11bd886xxxxxxxxxxxxxxxx
+  QIANFAN_API_KEY: W10mMhWdxxxxxxxxxxxxxxxx
+  QIANFAN_SECRET_KEY: qHCwkluHxxxxxxxxxxxxxxxx
+  OPENAI_API_KEYS:
+    - sk-zk21fbddaa119df63xxxxxxxxxxxxxxxx
+    - sk-zk278b6dd516fb2e85a9fxxxxxxxxxxxxxxxx
+    - sk-zk2d04f19705f60c4cxxxxxxxxxxxxxxxx
+    - sk-zk2e666c7a55f5exxxxxxxxxxxxxxxx
+    - sk-zk2bf1417acabxxxxxxxxxxxxxxxx
+  BING_API_KEYS:
+    - e4a40f49fxxxxxxxxxxxxxxxx
+    - 769448xxxxxxxxxxxxxxxx
+db:
+  url: mysql+asyncmy://f2ee01:f2eexxxxxxxxxxxxxxxx
+redis:
+  host: 10.xxxxxxxxxxxxxxxx
+  port: 6379
+  password: f2xxxxxxxxxxxxxxxx
+gate:
+  add_operate_url: https://api-tesxxxxxxxxxxxxxxxx
+wiki:
+  url: http://10.0xxxxxxxxxxxxxxxx
+cos:
+  cos_base_url: https://gxxxxxxxxxxxxxxxx
+  bucket: green-test-13xxxxxxxxxxxxxxxx

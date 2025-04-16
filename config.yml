@@ -1,0 +1,11 @@
+keys:
+  TCLOUD_API_KEY: 5xrhxxxxxxxxxxxxxxxx
+  TCLOUD_SECRET_ID: AKIxxxxxxxxxxxxxxxx
+  TOKEN_SECRET: a11bd886b87cf17xxxxxxxxxxxxxxxx
+  OPENAI_API_KEYS:
+    - sk-zk21fbddaa119xxxxxxxxxxxxxxxx
+    - sk-zk278b6dd516xxxxxxxxxxxxxxxx
+
+  BING_API_KEYS:
+    - c31c850a96xxxxxxxxxxxxxxxx
+    - 8e26c0b4470xxxxxxxxxxxxxxxx

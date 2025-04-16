@@ -1,0 +1,18 @@
+services:
+  green-energy-api:
+    #    image: zhongpu/python:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: green-energy-dev
+    volumes:
+      - ./app:/green-gpt/app
+      - ./config-dev.yml:/green-gpt/config-dev.yml
+    restart: always
+    network_mode: host
+    logging:
+      driver: local
+    working_dir: /green-gpt
+    environment:
+      - ENV=debug
+    command: gunicorn app.main:app --workers 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:7000
